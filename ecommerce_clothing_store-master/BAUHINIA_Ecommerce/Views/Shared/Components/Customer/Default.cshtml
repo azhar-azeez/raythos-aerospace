@@ -91,12 +91,12 @@
         </div>
 
         <div class="header-cart-content flex-w js-pscroll">
-            <ul class="header-cart-wrapitem w-full">
+            <div><ul class="header-cart-wrapitem w-full">
 
                 @if (shoppingCartModels != null)
                 {
-
-                    @foreach (var item in @shoppingCartModels)
+                <!--riterally missing an at the beginning-->
+                    foreach (var item in @shoppingCartModels) 
                     {
                         <li class="header-cart-item flex-w flex-t m-b-12">
                             <div class="header-cart-item-img">
@@ -118,7 +118,7 @@
                 }
 
 
-            </ul>
+            </ul></div>
 
             <div class="w-full">
                 <div class="header-cart-total w-full p-tb-40">

@@ -43,12 +43,12 @@
 <section class="section-slide">
     <div class="wrap-slick1 rs1-slick1">
         <div class="slick1">
-            <div class="item-slick1" style="background-image:url('@Url.Content("assets/fe/images/slide-03.jpg")');">
+            <div class="item-slick1" style="background-image:url('@Url.Content("assets/fe/images/Slid-03.jpg")');">
                 <div class="container h-full">
                     <div class="flex-col-l-m h-full p-t-100 p-b-30">
                         <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
                             <span class="ltext-202 cl2 respon2">
-                                Men Collection 2022
+                                Latest Aeroplane Models
                             </span>
                         </div>
 
@@ -60,49 +60,73 @@
 
                         <div class="layer-slick1 animated visible-false" data-appear="zoomIn" data-delay="1600">
                             <a asp-action="Shop" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
-                                Shop Now
+                                Configure
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="item-slick1" style="background-image: url('@Url.Content("~/assets/fe/images/slide-02.jpg")');">
+            <div class="item-slick1" style="background-image: url('@Url.Content("~/assets/fe/images/Slid-02.jpg")');">
                 <div class="container h-full">
                     <div class="flex-col-l-m h-full p-t-100 p-b-30">
                         <div class="layer-slick1 animated visible-false" data-appear="rollIn" data-delay="0">
-                            <span class="ltext-202 cl2 respon2">
-                                Men New-Season
+                            <span class="ltext-202 cl2 respon2" style="color: #f0f0f0;">
+                                Personalize your own business jets
                             </span>
                         </div>
 
                         <div class="layer-slick1 animated visible-false" data-appear="lightSpeedIn" data-delay="800">
-                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
-                                Jackets & Coats
+                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1" style="color: #f0f0f0;">
+                                With all new configurator
                             </h2>
                         </div>
 
                         <div class="layer-slick1 animated visible-false" data-appear="slideInUp" data-delay="1600">
                             <a asp-action="Shop" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
-                                Shop Now
+                                Start Now
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="item-slick1" style="background-image: url('@Url.Content("~/assets/fe/images/slide-04.jpg")');">
+            <div class="item-slick1" style="background-image: url('@Url.Content("~/assets/fe/images/Slid-04.jpg")');">
                 <div class="container h-full">
                     <div class="flex-col-l-m h-full p-t-100 p-b-30">
                         <div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
-                            <span class="ltext-202 cl2 respon2">
-                                Women Collection 2022
+                            <span class="ltext-202 cl2 respon2" style="color: #000000;">
+                                Create your personalized executive jet
                             </span>
                         </div>
 
                         <div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
-                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1">
-                                NEW SEASON
+                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1" style="color: #f0f0f0; -webkit-text-stroke: 1px black;">
+                                NEW EXPERIENCES
+                            </h2>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-false" data-appear="rotateIn" data-delay="1600">
+                            <a asp-action="Shop" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04">
+                                Configure
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-slick1" style="background-image: url('@Url.Content("~/assets/fe/images/Slid-01.jpg")');">
+                <div class="container h-full">
+                    <div class="flex-col-l-m h-full p-t-100 p-b-30">
+                        <div class="layer-slick1 animated visible-false" data-appear="rotateInDownLeft" data-delay="0">
+                            <span class="ltext-202 cl2 respon2" style="color: #AAFF00;">
+                                Industry-leading technologies and performance
+                            </span>
+                        </div>
+
+                        <div class="layer-slick1 animated visible-false" data-appear="rotateInUpRight" data-delay="800">
+                            <h2 class="ltext-104 cl2 p-t-19 p-b-43 respon1" style="color: #f0f0f0; -webkit-text-stroke: 1px black;">
+                                You Imagine : We Build
                             </h2>
                         </div>
 
@@ -118,6 +142,17 @@
     </div>
 </section>
 
+@*quote*@
+<section class="quote-section">
+    <div class="container">
+        <div class="quote-box">
+            <blockquote>
+                <p>"The good thing about flying solo is it's never Boring"</p>
+                <cite>— Raythos</cite>
+            </blockquote>
+        </div>
+    </div>
+</section>
 
 <!-- Banner -->
 <div class="sec-banner bg0">
@@ -125,16 +160,41 @@
         <div class="size-202 m-lr-auto respon4">
             <!-- Block1 -->
             <div class="block1 wrap-pic-w">
-                <img src="~/assets/fe/images/banner-04.jpg" alt="IMG-BANNER">
+                <img src="~/assets/fe/images/banner-1.jpg" alt="IMG-BANNER">
 
                 <a asp-action="Shop" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
                     <div class="block1-txt-child1 flex-col-l">
                         <span class="block1-name ltext-102 trans-04 p-b-8">
-                            Women
+                            Heavy Private Jets
                         </span>
 
                         <span class="block1-info stext-102 trans-04">
-                            Spring 2022
+                            2022
+                        </span>
+                    </div>
+
+                    <div class="block1-txt-child2 p-b-4 trans-05">
+                        <div class="block1-link stext-101 cl0 trans-09">
+                            More
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="size-202 m-lr-auto respon4">
+            <!-- Block1 -->
+            <div class="block1 wrap-pic-w">
+                <img src="~/assets/fe/images/banner-2.jpg" alt="IMG-BANNER">
+
+                <a asp-action="Shop" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
+                    <div class="block1-txt-child1 flex-col-l">
+                        <span class="block1-name ltext-102 trans-04 p-b-8">
+                            Commercial Aeroplanes
+                        </span>
+
+                        <span class="block1-info stext-102 trans-04">
+                            2023
                         </span>
                     </div>
 
@@ -150,41 +210,16 @@
         <div class="size-202 m-lr-auto respon4">
             <!-- Block1 -->
             <div class="block1 wrap-pic-w">
-                <img src="~/assets/fe/images/banner-05.jpg" alt="IMG-BANNER">
+                <img src="~/assets/fe/images/banner-3.jpg" alt="IMG-BANNER">
 
                 <a asp-action="Shop" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
                     <div class="block1-txt-child1 flex-col-l">
                         <span class="block1-name ltext-102 trans-04 p-b-8">
-                            Men
+                            Light Private Jets
                         </span>
 
                         <span class="block1-info stext-102 trans-04">
-                            Spring 2022
-                        </span>
-                    </div>
-
-                    <div class="block1-txt-child2 p-b-4 trans-05">
-                        <div class="block1-link stext-101 cl0 trans-09">
-                            Shop Now
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="size-202 m-lr-auto respon4">
-            <!-- Block1 -->
-            <div class="block1 wrap-pic-w">
-                <img src="~/assets/fe/images/banner-06.jpg" alt="IMG-BANNER">
-
-                <a asp-action="Shop" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-                    <div class="block1-txt-child1 flex-col-l">
-                        <span class="block1-name ltext-102 trans-04 p-b-8">
-                            Bags
-                        </span>
-
-                        <span class="block1-info stext-102 trans-04">
-                            New Trend
+                            2023
                         </span>
                     </div>
 
@@ -293,8 +328,8 @@
             <div class="col-sm-6 col-md-4 p-b-40">
                 <div class="blog-item">
                     <div class="hov-img0">
-                        <a href="#">
-                            <img src="~/assets/fe/images/blog-01.jpg" alt="IMG-BLOG">
+                        <a href="https://www.businessinsider.com/elon-musk-private-jet-travel-2023-12">
+                            <img src="~/assets/fe/images/blog-1.jpg" alt="IMG-BLOG">
                         </a>
                     </div>
 
@@ -306,7 +341,7 @@
                                 </span>
 
                                 <span class="cl5">
-                                    Nancy Ward
+                                    Grace Kay
                                 </span>
                             </span>
 
@@ -316,19 +351,19 @@
                                 </span>
 
                                 <span class="cl5">
-                                    July 22, 2017
+                                    December 17, 2023
                                 </span>
                             </span>
                         </div>
 
                         <h4 class="p-b-12">
-                            <a href="#" class="mtext-101 cl2 hov-cl1 trans-04">
-                                8 Inspiring Ways to Wear Dresses in the Winter
+                            <a href="https://www.businessinsider.com/elon-musk-private-jet-travel-2023-12" class="mtext-101 cl2 hov-cl1 trans-04">
+                                Elon Musk's private jets took 441 flights this year
                             </a>
                         </h4>
 
                         <p class="stext-108 cl6">
-                            Duis ut velit gravida nibh bibendum commodo. Suspendisse pellentesque mattis augue id euismod. Interdum et male-suada fames
+                            Musk has been splitting his time between Texas and California and his private jets have the mileage
                         </p>
                     </div>
                 </div>
@@ -337,8 +372,8 @@
             <div class="col-sm-6 col-md-4 p-b-40">
                 <div class="blog-item">
                     <div class="hov-img0">
-                        <a href="#">
-                            <img src="~/assets/fe/images/blog-02.jpg" alt="IMG-BLOG">
+                        <a href="https://www.therichest.com/inside-taylor-swift-private-jet-number-13/">
+                            <img src="~/assets/fe/images/blog-2.jpg" alt="IMG-BLOG">
                         </a>
                     </div>
 
@@ -350,7 +385,7 @@
                                 </span>
 
                                 <span class="cl5">
-                                    Nancy Ward
+                                    VRUSHALI PADIA
                                 </span>
                             </span>
 
@@ -360,19 +395,19 @@
                                 </span>
 
                                 <span class="cl5">
-                                    July 18, 2017
+                                    November 17, 2017
                                 </span>
                             </span>
                         </div>
 
                         <h4 class="p-b-12">
-                            <a href="#" class="mtext-101 cl2 hov-cl1 trans-04">
-                                The Great Big List of Men’s Gifts for the Holidays
+                            <a href="https://www.therichest.com/inside-taylor-swift-private-jet-number-13/" class="mtext-101 cl2 hov-cl1 trans-04">
+                                A Look Inside Taylor Swift’s 'Number 13' Private Jet
                             </a>
                         </h4>
 
                         <p class="stext-108 cl6">
-                            Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus, ac fringilla lacus. Ut sit ame
+                            Her most talked about possession (apart from several luxurious estates), Taylor's "number 13" private jet is certainly among the most valuable she owns.
                         </p>
                     </div>
                 </div>
@@ -381,8 +416,8 @@
             <div class="col-sm-6 col-md-4 p-b-40">
                 <div class="blog-item">
                     <div class="hov-img0">
-                        <a href="#">
-                            <img src="~/assets/fe/images/blog-03.jpg" alt="IMG-BLOG">
+                        <a href="https://www.sportsgoal.com.ng/conor-mcgregor-shows-off-stunning-private-jet-that-dominates-the-skies-as-he-says-taking-my-baby-for-some-sun/">
+                            <img src="~/assets/fe/images/blog-3.jpg" alt="IMG-BLOG">
                         </a>
                     </div>
 
@@ -394,7 +429,7 @@
                                 </span>
 
                                 <span class="cl5">
-                                    Nancy Ward
+                                    SportsGoals
                                 </span>
                             </span>
 
@@ -404,19 +439,19 @@
                                 </span>
 
                                 <span class="cl5">
-                                    July 2, 2017
+                                    August 2, 2023
                                 </span>
                             </span>
                         </div>
 
                         <h4 class="p-b-12">
-                            <a href="#" class="mtext-101 cl2 hov-cl1 trans-04">
-                                5 Winter-to-Spring Fashion Trends to Try Now
+                            <a href="https://www.sportsgoal.com.ng/conor-mcgregor-shows-off-stunning-private-jet-that-dominates-the-skies-as-he-says-taking-my-baby-for-some-sun/" class="mtext-101 cl2 hov-cl1 trans-04">
+                                Conor McGregor shows off stunning private jet
                             </a>
                         </h4>
 
                         <p class="stext-108 cl6">
-                            Proin nec vehicula lorem, a efficitur ex. Nam vehicula nulla vel erat tincidunt, sed hendrerit ligula porttitor. Fusce sit amet maximus nunc
+                            The UFC‘s poster boy has been soaring the skies in some of the world’s most luxurious aircraft since rising to global superstardom in 2013.
                         </p>
                     </div>
                 </div>
